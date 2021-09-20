@@ -29,12 +29,12 @@ import torch
 #   x_bn_out = gamma_new * (x_bn_in - mean_new) / sqrt(var_new + eps) + beta_new 
 
 
-def fold_batch_norm(checkpoint, arch='resnet50'):
+def fold_batch_norm(checkpoint, arch='test_1.pt'):
     print('folding BN laryers for %s ... ' % arch)
     weight_layers, bn_layer_counts = [], 0
     layers_list = list(checkpoint.keys())
     
-    if arch == 'resnet50':
+    if arch == 'test_1.pt':
         var_eps  = 1e-5
         for layer in layers_list:
             if '.running_mean' in layer:
@@ -48,8 +48,8 @@ def fold_batch_norm(checkpoint, arch='resnet50'):
                 fold_batch_norm_for_one_layer(checkpoint, conv_layer, bn_base, var_eps)
                 bn_layer_counts += 1
         print('conv and batch normalization layers: ', bn_layer_counts)
-        assert(bn_layer_counts == 53)
-        weight_layers.append('fc.weight')
+        #assert(bn_layer_counts == 53)
+        #weight_layers.append('fc.weight')
     else:
         raise RuntimeError("Please implement BatchNorm folding for %s !!!" % arch) 
 

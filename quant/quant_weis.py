@@ -30,7 +30,7 @@ def quant_checkpoint(checkpoint, weight_layers, args):
     all_quant_error, all_quant_num = 0, 0
     all_tail_num = 0
     for each_layer in sorted(weight_layers):
-        
+        print(each_layer)
         each_layer_weights = checkpoint[each_layer].clone()
 
         print('quantize for: %s, size: %s' % (each_layer, each_layer_weights.size()))

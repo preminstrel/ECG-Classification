@@ -9,8 +9,9 @@
 
 The project is based on SEU SRTP.
 
-- Implementation of "Arrhythmia Detection Using Deep Convolutional Neural Network With Long Duration ECG Signals" using Pytorch.
-- Design a new Quantization Compression Method applied to the networks (Doing).
+- Implementation of "Arrhythmia Detection Using Deep Convolutional Neural Network With Long Duration ECG Signals" using Pytorch [code open].
+- Design a new Quantization Compression Method applied to the networks (ALQ) [code not open].
+- Blog: [Arrhythmia Classifier Using Convolutional Neural Network with Adaptive Loss-aware Multi-bit Networks Quantization](https://preminstrel.github.io/post/2021/10/17/arrhythmia-classifier-using-cnn-with-alq/)
 
-env: Ubuntu, Pytorch
+env: Ubuntu, PyTorch
 

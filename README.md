@@ -9,5 +9,3 @@ The project is based on SEU SRTP.
 - Design a new Quantization Compression Method applied to the networks (ALQ)
 - Blog: [Arrhythmia Classifier Using Convolutional Neural Network with Adaptive Loss-aware Multi-bit Networks Quantization](https://preminstrel.github.io/blog/post/2021/10/17/arrhythmia-classifier-using-cnn-with-alq/)
 
-env: PyTorch==1.9.0
-

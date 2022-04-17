@@ -21,8 +21,7 @@ classification for the sake of arrhythmia detection. However, the
 existing neural networks proposed for arrhythmia detection are
 not hardware-friendly enough due to a remarkable quantity of
 parameters resulting in memory and power consumption. In this
-paper, we present a 1-D adaptive loss-aware quantization, achiev-
-ing a high compression rate that reduces memory consumption
+paper, we present a 1-D adaptive loss-aware quantization, achieving a high compression rate that reduces memory consumption
 by 23.36 times. In order to adapt to our compression method, we
 need a smaller and simpler network. We propose a 17 layer end-
 to-end neural network classifier to classify 17 different rhythm

@@ -46,3 +46,6 @@ diagnosis.
 - Blog: [Arrhythmia Classifier Using Convolutional Neural Network with Adaptive Loss-aware Multi-bit Networks Quantization](https://preminstrel.github.io/blog/post/2021/10/17/arrhythmia-classifier-using-cnn-with-alq/)
 
 ![metircs](image/metrics.png)
+
+## Acknowledgement
+- [Adaptive Loss-aware Quantization for Multi-bit Networks](https://github.com/zqu1992/ALQ)

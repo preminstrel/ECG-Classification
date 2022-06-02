@@ -19,8 +19,7 @@ IMG {
 	PADDING-TOP: 0px
 }
 #primarycontent {
-	MARGIN-LEFT: auto; ; WIDTH: expression(document.body.clientWidth >
-1000? "1000px": "auto" ); MARGIN-RIGHT: auto; TEXT-ALIGN: left; max-width:
+	MARGIN-LEFT: auto; ; WIDTH: expression(document.body.clientWidth >1000? "1000px": "auto" ); MARGIN-RIGHT: auto; TEXT-ALIGN: left; max-width:
 1000px }
 BODY {
 	TEXT-ALIGN: center
@@ -35,7 +34,7 @@ H1 {
   FONT-WEIGHT: normal
 }
 H2 {
-  MARGIN-TOP: 12px; FONT-WEIGHT: normal; MARGIN-BOTTOM: 0px
+  MARGIN-TOP: 12px; FONT-WEIGHT: normal; MARGIN-BOTTOM: 0px; COLOR: #990000
 }
 H3 {
   MARGIN-TOP: 6px; FONT-SIZE: small; MARGIN-BOTTOM: 0px
@@ -50,7 +49,7 @@ A:link {
   COLOR: #990000
 }
 A:visited {
-  COLOR: #666666
+  COLOR: #244bd8
 }
 UL {
   MARGIN-TOP: 1px; MARGIN-BOTTOM: 15px
@@ -147,15 +146,20 @@ TD.coursename {
 <center><h2><a>Hanshi Sun</a>&nbsp;&nbsp;&nbsp;
   <a>Ao Wang&nbsp;&nbsp;&nbsp;Ninghao Pu&nbsp;&nbsp;&nbsp;Zhiqing Li&nbsp;&nbsp;&nbsp;Junguang Huang&nbsp;&nbsp;&nbsp;Hao Liu&nbsp;&nbsp;&nbsp;Zhi Qi</a>
 </h2></center>
+
 <center><h2><a href="https://www.seu.edu.cn/english/">Southeast University</a></h2></center>
 <center><h2>In ICAICE 2021</h2></center>
 <center><h2><strong><a href="https://arxiv.org/pdf/2202.12943">Paper</a> | <a href="https://github.com/preminstrel/ECG-Classification">Code</a> </strong> </h2></center>
-<center><a href="https://github.com/preminstrel/ECG-Classification">
-<img src="image/overview.png" width="1000"> </a></center>
-<p></p>
+
+<p><center>
+<table><tr>
+<td><img src=image/overview.png width="450" border=0></td>
+<td><img src=image/algorithm.png width="570" border=0></td>
+</tr></table>
+</center>
+</p>
 
 
- <p>
 </p><h2>Abstract</h2>
 
 <div style="font-size:14px"><p align="justify">Cardiovascular disease (CVDs) is one of the uni- versal deadly diseases, and the detection of it in the early stage is a challenging task to tackle. Recently, deep learning and convolutional neural networks have been employed widely for the classification of objects. Moreover, it is promising that lots of networks can be deployed on wearable devices. An increasing number of methods can be used to realize ECG signal classification for the sake of arrhythmia detection. However, the existing neural networks proposed for arrhythmia detection are not hardware-friendly enough due to a remarkable quantity of parameters resulting in memory and power consumption. In this paper, we present a 1-D adaptive loss-aware quantization, achieving a high compression rate that reduces memory consumption by 23.36 times. In order to adapt to our compression method, we need a smaller and simpler network. We propose a 17 layer end- to-end neural network classifier to classify 17 different rhythm classes trained on the MIT-BIH dataset, realizing a classification accuracy of 93.5%, which is higher than most existing methods. Due to the adaptive bitwidth method making important layers get more attention and offered a chance to prune useless parameters, the proposed quantization method avoids accuracy degradation. It even improves the accuracy rate, which is 95.84%, 2.34% higher than before. Our study achieves a 1-D convolutional neural network with high performance and low resources consumption, which is hardware-friendly and illustrates the possibility of deployment on wearable devices to realize a real-time arrhythmia diagnosis.</p></div>
@@ -178,8 +182,8 @@ TD.coursename {
 <br>
 
 <br>
-<h2>Acknowledgment</h2>
-<p align="justify">We thank SEU.</p>
+<!-- <h2>Acknowledgment</h2>
+<p align="justify">We thank SEU.</p> -->
 
 
 </ul></div></body>

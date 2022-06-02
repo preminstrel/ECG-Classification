@@ -1,0 +1,6 @@
+@article{sun2022arrhythmia,
+  title={Arrhythmia Classifier Using Convolutional Neural Network with Adaptive Loss-aware Multi-bit Networks Quantization},
+  author={Sun, Hanshi and Wang, Ao and Pu, Ninghao and Li, Zhiqing and Huang, Junguang and Liu, Hao and Qi, Zhi},
+  journal={arXiv preprint arXiv:2202.12943},
+  year={2022}
+}

@@ -47,5 +47,10 @@ diagnosis.
 
 ![metircs](image/metrics.png)
 
+## Citation
+```tex
+H. Sun et al., "Arrhythmia Classifier Using Convolutional Neural Network with Adaptive Loss-aware Multi-bit Networks Quantization," 2021 2nd International Conference on Artificial Intelligence and Computer Engineering (ICAICE), 2021, pp. 461-467, doi: 10.1109/ICAICE54393.2021.00095.
+```
+
 ## Acknowledgement
 - [Adaptive Loss-aware Quantization for Multi-bit Networks](https://github.com/zqu1992/ALQ)
